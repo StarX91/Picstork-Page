@@ -21,7 +21,7 @@ const Main = () => {
             imgurl={<FaTasks className="size-12 mx-2 my-2 text-white" />}
           />
           <Live
-            name="Search"
+            name="Detectors"
             imgurl={<FaSearch className="size-12 mx-2 my-2 text-white" />}
           />
         </div>
