@@ -2,7 +2,7 @@ import React from "react";
 
 const Live = ({ name, imgurl }) => {
   return (
-    <div className="flex bg-stone-300 my-4 lg:my-16 h-20 w-full lg:w-10/12 rounded-2xl mx-auto">
+    <div className="flex  bg-stone-300 my-4 lg:my-16 h-20 w-full lg:w-10/12 rounded-2xl mx-auto">
       <div className="flex bg-zinc-700 ml-2 my-2 w-1/4 rounded-full justify-center items-center">
         {imgurl}
       </div>
