@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard";
 import { MdCameraIndoor } from "react-icons/md";
 import TMain from './components/Tasks/TMain'
 import Dmain from './components/Detectors/Dmain'
+import Board from "./components/Services/Board";
 
 const App = () => {
   return (
@@ -21,9 +22,10 @@ const App = () => {
         {/* <Main /> */}
         <div className="content">
           <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/tasks" element={<TMain />} />
-            <Route path="/detectors" element={<Dmain />} />
+            <Route path="/" element={<Board />} />
+            <Route path="/dashboard" element={<Main />} />
+            <Route path="/dashboard/tasks" element={<TMain />} />
+            <Route path="/dashboard/detectors" element={<Dmain />} />
           </Routes>
         </div>
       </div>

@@ -21,13 +21,13 @@ const Main = () => {
             name="Objects"
             imgurl={<FaCube className="size-12 mx-2 my-2 text-white" />}
           />
-          <Link to="/tasks">
+          <Link to="/dashboard/tasks">
           <Live
             name="Task"
             imgurl={<FaTasks className="size-12 mx-2 my-2 text-white" />}
           />
           </Link>
-          <Link to="/detectors">
+          <Link to="/dashboard/detectors">
           <Live
             name="Detectors"
             imgurl={<FaSearch className="size-12 mx-2 my-2 text-white" />}

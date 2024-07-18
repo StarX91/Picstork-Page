@@ -4,7 +4,7 @@ import { FaImages, FaCube, FaTasks, FaSearch } from "react-icons/fa";
 import Dashboard from "./Dashboard";
 import Navbar from "../Navbar";
 
-const Main = () => {
+const TMain = () => {
   return (
     <>
     <Navbar/>
@@ -37,4 +37,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default TMain;
