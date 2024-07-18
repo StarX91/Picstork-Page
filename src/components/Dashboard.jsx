@@ -3,9 +3,12 @@ import ProjectDropdown from "./ProjectDropdown";
 import Card from "./Card";
 import Chart from "./Chart";
 import PieChart from "./PieChart";
+import Navbar from "./Navbar";
 
 const Dashboard = () => {
   return (
+    <>
+    {/* <Navbar/> */}
     <div className="flex-1 p-4 lg:p-8">
       <div className="flex justify-between items-center mb-4">
         <ProjectDropdown />
@@ -24,6 +27,7 @@ const Dashboard = () => {
         <PieChart title="Task Analysis" />
       </div>
     </div>
+    </>
   );
 };
 
