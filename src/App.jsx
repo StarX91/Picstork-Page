@@ -20,14 +20,14 @@ const App = () => {
       <div className="bg-black h-screen overflow:hidden">
         {/* <Navbar /> */}
         {/* <Main /> */}
-        <div className="content">
+        {/* <div className="content"> */}
           <Routes>
             <Route path="/" element={<Board />} />
             <Route path="/dashboard" element={<Main />} />
             <Route path="/dashboard/tasks" element={<TMain />} />
             <Route path="/dashboard/detectors" element={<Dmain />} />
           </Routes>
-        </div>
+        {/* </div> */}
       </div>
     </Router>
   );
