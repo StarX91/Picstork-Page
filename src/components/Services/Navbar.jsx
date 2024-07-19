@@ -9,6 +9,7 @@ import { IoIosAddCircle } from "react-icons/io";
 
 const Navbar = () => {
   return (
+    //---------------------------------------------------
     // <div className="flex flex-col md:flex-row justify-between bg-black w-full  md:h-16 p-4">
     //   <div className="flex w-full md:w-36 bg-white mb-4 md:mb-0 mx-auto md:mx-0 h-12 rounded-3xl items-center justify-center">
     //     <img src={Starx} alt="starx logo" className="h-8 md:h-8" />
@@ -43,6 +44,7 @@ const Navbar = () => {
     //   </div>
     //   <button className="flex bg-zinc-700 w-12 my-4 md:my-0 h-12 rounded-full mx-auto md:mx-0"></button>
     // </div>
+    //-----------------------------------------------------------------------
     <div className="h-12 bg-neutral-950 flex justify-between">
         <div className="pt-3 pl-2">
             <img src={Starx} className="px-4 bg-white rounded-full w-20 h-5 "></img>

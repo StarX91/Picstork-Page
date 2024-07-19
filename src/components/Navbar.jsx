@@ -37,19 +37,19 @@ const Navbar = () => {
         <div className="flex ">
             <button className="w-20 h-10  my-1 rounded-sm flex flex-col items-center">
             <MdDashboard className="text-zinc-400 w-8 h-8" />
-            <p className="text-zinc-400 text-[11px] font-semibold">Dashboard</p>
+            <p className="text-zinc-400 text-[11px] font-semibold">Services</p>
             </button>
             <button className="w-20 h-10  my-1 rounded-sm flex flex-col items-center">
             <MdDashboard className="text-zinc-400 w-8 h-8" />
             <p className="text-zinc-400 text-[11px] font-semibold">Dashboard</p>
             </button>
             <button className="bg-zinc-800 w-20 h-10 my-1 rounded-sm flex flex-col items-center">
-            <PiDroneFill className="text-zinc-400 w-8 h-8" />
-            <p className="text-zinc-400 text-[12px] font-semibold">Drones</p>
+            <IoSettingsSharp className="text-zinc-400 w-8 h-8" />
+            <p className="text-zinc-400 text-[12px] font-semibold">Settings</p>
             </button>
             <button className="w-20 h-10 my-2 rounded-sm flex flex-col items-center">
-            <SlCalender className="text-zinc-400 w-10 h-10" />
-            <p className="text-zinc-400 text-[9px] my-1 font-bold text-center">Control Center</p>
+            <IoIosAddCircle className="text-zinc-400 size-20" />
+            <p className="text-zinc-400 text-[12px] my-1 font-semibold text-center">Add</p>
             </button>
             </div>
         <div className="w-8 h-8 rounded-full bg-neutral-300">
