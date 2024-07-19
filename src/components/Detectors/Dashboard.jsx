@@ -9,7 +9,7 @@ const Dashboard = () => {
         <input
           type="text"
           placeholder="Search"
-          className="p-2 rounded bg-gray-700 text-white  border-2 border-zinc-300 "
+          className="bg-zinc-800 p-2 rounded bg-gray-700 text-white  border-2 border-zinc-300 "
         />
         <button className="bg-zinc-800 ml-4 size-[3rem] rounded-md border-2 border-zinc-300">
           {<BiSearchAlt className="size-[2.5rem] pl-2 text-zinc-300" />}

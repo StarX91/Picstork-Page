@@ -47,9 +47,29 @@ const Board = () => {
                     projects with teams for greater degree of collaborations.
                   </div>
                 </div>
-                <Link to="/dashboard" className="bg-zinc-600 w-full md:w-48 h-10 mt-4 md:mt-0 md:ml-6 text-white font-semibold rounded-xl">
-                  Explore Now
-                </Link>
+              </div>
+              <Link
+                to="/"
+                className="bg-zinc-600 w-full md:w-48 h-10 mt-4 md:mt-0 md:ml-6 py-2 px-4 text-white font-semibold rounded-xl"
+              >
+                Explore Now
+              </Link>
+            </div>
+            <div className="flex flex-col md:flex-row bg-zinc-800 w-full md:w-3/5 mx-auto rounded-3xl p-4 items-center">
+              <div className="flex-shrink-0">
+                <img
+                  src=""
+                  alt="img"
+                  className="w-16 h-16 md:w-20 md:h-20 bg-zinc-700 rounded-full"
+                />
+              </div>
+              <div className="flex flex-col flex-grow md:ml-6 mt-4 md:mt-0 text-center md:text-left">
+                <div className="text-white font-bold text-lg">Star Stork</div>
+                <div className="text-white text-sm md:text-base mt-2">
+                  Utilize drone imagery for comprehensive analytics to enhance
+                  decision-making. Opt for either training custom models or
+                  employing built-in detectors for precise image analysis.
+                </div>
               </div>
             ))}
         </div> */}
