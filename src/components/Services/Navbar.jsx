@@ -6,8 +6,21 @@ import { SlCalender } from "react-icons/sl";
 import { IoIosPeople } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
 import { IoIosAddCircle } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    // Add your logout logic here
+    console.log("Logged out");
+  };
+
+  const handleEditProfile = () => {
+    navigate("/edit-profile");
+  };
   return (
     //---------------------------------------------------
     // <div className="flex flex-col md:flex-row justify-between bg-black w-full  md:h-16 p-4">
@@ -75,9 +88,30 @@ const Navbar = () => {
             <p className="text-zinc-400 text-[12px] font-semibold">Add</p>
             </button>
         </div>
-        <div className="w-8 h-8 rounded-full bg-neutral-300">
-
-        </div>
+        <div className="relative">
+        <button
+          className="w-8 h-8 rounded-full bg-red-300 focus:outline-none"
+          onClick={() => setDropdownOpen(!dropdownOpen)}
+        >
+          {/* Circle button */}
+        </button>
+        {dropdownOpen && (
+          <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20">
+            <button
+              onClick={handleEditProfile}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+            >
+              Edit Profile
+            </button>
+            <button
+              onClick={handleLogout}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+            >
+              Logout
+            </button>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

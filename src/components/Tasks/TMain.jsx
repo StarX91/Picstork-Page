@@ -15,18 +15,7 @@ const TMain = () => {
             name="Images"
             imgurl={<FaImages className="size-12 mx-2 my-2 text-white" />}
           />
-          <Live
-            name="Objects"
-            imgurl={<FaCube className="size-12 mx-2 my-2 text-white" />}
-          />
-          <Live
-            name="Task"
-            imgurl={<FaTasks className="size-12 mx-2 my-2 text-white" />}
-          />
-          <Live
-            name="Detectors"
-            imgurl={<FaSearch className="size-12 mx-2 my-2 text-white" />}
-          />
+          
         </div>
         <div className="w-full lg:w-10/12 p-4">
           <Dashboard />

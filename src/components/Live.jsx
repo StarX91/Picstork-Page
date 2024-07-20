@@ -3,6 +3,7 @@ import { FaImages, FaCube, FaTasks, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Live = ({ name, imgurl }) => {
+  
   return (
     <>
     <div className="bg-neutral-400 w-full h-18 py-2 rounded-md flex my-5">
