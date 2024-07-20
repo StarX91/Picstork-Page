@@ -17,7 +17,7 @@ function EditProfile() {
     card ${
       theme === "Dark"
         ? "transition duration-300 bg-black "
-        : "transition duration-300 bg-zinc-100 "
+        : "transition duration-300 bg-zinc-600 "
     }`}
     >
       <Navbar />
