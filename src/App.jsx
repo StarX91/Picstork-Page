@@ -27,7 +27,7 @@ const App = () => {
             <Route path="/dashboard" element={<Main />} />
             <Route path="/dashboard/tasks" element={<TMain />} />
             <Route path="/dashboard/detectors" element={<Dmain />} />
-            <Route path="/edit-profile" element={<Dmain />} />
+            <Route path="/edit-profile" element={<EditProfile />} />
           </Routes>
         {/* </div> */}
       </div>
