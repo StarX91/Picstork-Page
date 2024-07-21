@@ -13,8 +13,10 @@ const TaskAnalysis = () => {
     datasets: [
       {
         data: [300, 50, 100, 75],
-        backgroundColor: ['#520112', '#00253d', '#4a3500', '#4a0d00'],
-        hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#FF5733'],
+        hoverBackgroundColor: ['#520112', '#00253d', '#4a3500', '#4a0d00'],
+        backgroundColor: ['#912325', '#1d5b85', '#806420', '#87301e'],
+        borderColor: 'transparent', // Remove the border
+        borderWidth: 3, // Set border width to 0
       },
     ],
     labels: ['Task A', 'Task B', 'Task C', 'Task D'],
@@ -40,7 +42,11 @@ const TaskAnalysis = () => {
   return (
     <div className="p-4 bg-neutral-900 shadow-md rounded-lg">
       <h2 className="text-xl font-semibold mb-4 text-neutral-400">Task Analysis</h2>
-      <div className="relative h-56"> {/* Adjust the height as needed */}
+      <div 
+      className="relative 
+      h-56
+      lg:h-44
+      2xl:h-80"> {/* Adjust the height as needed */}
         <Pie data={data} options={options} height={200} width={200} /> {/* Adjust width and height */}
       </div>
     </div>

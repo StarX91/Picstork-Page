@@ -1,20 +1,17 @@
-import React from "react";
+import {React, useState }from "react";
 import Starx from "../../assets/StarX91-Logo.svg";
 import { MdDashboard } from "react-icons/md";
 import { PiDroneFill } from "react-icons/pi";
 import { SlCalender } from "react-icons/sl";
-import { IoIosPeople } from "react-icons/io";
+import { IoIosPeople, IoIosAddCircle } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
-import { IoIosAddCircle } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
 
 const Navbar = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    // Add your logout logic here
     console.log("Logged out");
   };
 
@@ -93,7 +90,6 @@ const Navbar = () => {
           className="w-8 h-8 rounded-full bg-red-300 focus:outline-none"
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
-          {/* Circle button */}
         </button>
         {dropdownOpen && (
           <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20">

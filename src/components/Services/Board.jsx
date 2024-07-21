@@ -6,27 +6,31 @@ const Board = () => {
   return (
     <>
       <Navbar />
-      <div className="flex bg-black h-auto justify-center">
+      <div className="flex bg-black  w-screen h-auto justify-center">
         <div
-          className="bg-neutral-950 w-full md:w-full mx-4 md:mx-20 mt-8 md:my-3 mb-12  rounded-2xl p-4
-      min-[1440px]:my-36"
+          className="bg-neutral-950   rounded-2xl 
+          w-full  mx-4  mt-8  mb-12 p-4
+           md:mx-20 md:my-3
+          min-[1440px]:my-36
+          "
         >
           <div
             className="text-center text-neutral-300 mt-2
-        min-[1440px]:mt-4"
+            min-[1440px]:mt-4
+            2xl:mt-12"
           >
             <p
-              className="text-xl md:text-4xl font-semibold
-          "
-            >
+              className="text-xl font-semibold 
+              md:text-4xl">
               Welcome to{" "}
               <span className="font-semibold text-neutral-400">
                 StarMapper{" "}
               </span>
             </p>
             <p
-              className="text-xs md:text-sm pt-2 px-36 md:pt-3 text-neutral-400
-          min-[1440px]:pt-4 min-[1440px]:text-sm min-[1440px]:px-56"
+              className="text-xs md:text-sm pt-2 px-36 md:pt-3 text-neutral-400 font-semibold
+              min-[1440px]:pt-4 min-[1440px]:text-sm min-[1440px]:px-56
+              2xl:px-96"
             >
               Star-Mapper is a SaaS platform offering multiple services. Each
               service is uniquely designed with the highest security and
@@ -86,10 +90,12 @@ const Board = () => {
         </div> */}
           <div
             className="flex justify-center mt-5
-        min-[1440px]:mt-10"
+            min-[1440px]:mt-10"
           >
-            <div className="bg-neutral-900 px-3 py-2 w-7/12 flex justify-evenly rounded-2xl">
-              <div className="w-52 h-24 px-1  mt-1 mx-3">
+            <div 
+            className="bg-neutral-900 px-3 py-2 w-7/12 flex justify-evenly rounded-2xl
+            2xl:w-5/12">
+              <div className="w-24 h-24   mt-1 mx-3">
                 <div className=" w-full h-full aspect-square rounded-full bg-neutral-800"></div>
               </div>
               <div className=" w-full">
@@ -113,8 +119,10 @@ const Board = () => {
             className="flex justify-center mt-5
         "
           >
-            <div className="bg-neutral-900 px-3 py-2 w-7/12 flex justify-evenly rounded-2xl">
-              <div className="w-52 h-24 px-1  mt-1 mx-3">
+            <div 
+            className="bg-neutral-900 px-3 py-2 w-7/12 flex justify-evenly rounded-2xl
+            2xl:w-5/12">
+              <div className="w-24 h-24   mt-1 mx-3">
                 <div className=" w-full h-full aspect-square rounded-full bg-neutral-800"></div>
               </div>
               <div className=" w-full">
@@ -136,10 +144,12 @@ const Board = () => {
           </div>
           <div
             className="flex justify-center mt-5 mb-2
-        min-[1440px]:mb-8"
+            min-[1440px]:mb-8"
           >
-            <div className="bg-neutral-900 px-3 py-2 w-7/12 flex justify-evenly rounded-2xl">
-              <div className="w-52 h-24 px-1  mt-1 mx-3">
+            <div 
+            className="bg-neutral-900 px-3 py-2 w-7/12 flex justify-evenly rounded-2xl
+            2xl:w-5/12">
+              <div className="w-24 h-24 mt-1 mx-3">
                 <div className=" w-full h-full aspect-square rounded-full bg-neutral-800"></div>
               </div>
               <div className=" w-full">

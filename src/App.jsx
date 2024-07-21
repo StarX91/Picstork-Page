@@ -18,7 +18,7 @@ const App = () => {
     //   </div>
     // </>
     <Router>
-      <div className="bg-black h-screen overflow:hidden">
+      <div className="bg-black h-screen overflow:hidden ">
         {/* <Navbar /> */}
         {/* <Main /> */}
         {/* <div className="content"> */}

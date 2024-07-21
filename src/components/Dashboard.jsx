@@ -143,10 +143,16 @@ const ProjectDashboard = () => {
         </div>
       )}
       <div className="flex">
-        <div className="w-1/2">
+        <div 
+        className="w-1/2
+        lg:mt-5 
+        2xl:mt-10">
           <ObjectsDetected/>
         </div>
-        <div className="w-1/2">
+        <div 
+        className="w-1/2
+        lg:mt-9 lg:ml-5
+        2xl:mt-16 2xl:mx-7 2xl:mb-10">
           <TaskAnalysis/>
         </div>
       </div>
