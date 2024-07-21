@@ -2,7 +2,7 @@ import React from "react";
 import { FaImages, FaCube, FaTasks, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Live = ({ name, imgurl }) => {
+const Live = () => {
   
   return (
     <>
